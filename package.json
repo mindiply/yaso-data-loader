@@ -1,0 +1,42 @@
+{
+  "name": "yaso-data-loader",
+  "version": "0.0.1",
+  "description": "DataLoader based on yaso and pg-promise, offering typed crud operations",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --maxWorkers=1",
+    "test-with-coverage": "jest --coverage --maxWorkers=1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindiply/yaso-data-loader.git"
+  },
+  "keywords": [
+    "dataloader",
+    "graphql",
+    "yaso",
+    "pg-promise"
+  ],
+  "author": "Paolo F. Bongiovanni <paolo.bongiovanni@mindiply.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mindiply/yaso-data-loader/issues"
+  },
+  "homepage": "https://github.com/mindiply/yaso-data-loader#readme",
+  "peerDependencies": {
+    "dataloader": "^2.2.3",
+    "pg-promise": "^11.10.2",
+    "yaso": "^0.0.29"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@jest/globals": "^29.7.0",
+    "@types/node": "^22.10.7",
+    "prettier": "^3.4.2",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
+}
